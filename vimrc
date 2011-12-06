@@ -23,3 +23,5 @@ map <C-k> <C-w>k
 map <Leader>t :CommandTFlush<CR>:CommandT<CR>
 
 color desert
+
+set guifont=Inconsolata-g:h14
