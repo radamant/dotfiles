@@ -1,3 +1,13 @@
+[alias]
+  co = checkout
+  ci = commit
+  dc = diff --cached
+  st = status
+  pu = remote update --prune
+  aa = add --all
+  l = log --graph --abbrev-commit --date=relative 
+  bro = !git branch -r | grep origin
+
 [user]
 	name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
 	email = <%= print("Your Email: "); STDOUT.flush; STDIN.gets.chomp %>
@@ -14,7 +24,7 @@
 [apply]
 	whitespace = nowarn
 [format]
-	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+    pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)(%an)%Creset
 [github]
 	user = <%= print("GitHub Username: "); STDOUT.flush; STDIN.gets.chomp %>
 	token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
