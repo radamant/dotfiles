@@ -22,6 +22,10 @@ map <C-k> <C-w>k
 
 map <Leader>t :CommandTFlush<CR>:CommandT<CR>
 
+" Map ,e to open files in the same directory as the current file
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>e :edit %%
+
 color desert
 
 set guifont=Inconsolata-g:h14
