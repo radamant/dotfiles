@@ -11,6 +11,17 @@ Installation
     cd ~/.dotfiles
     rake install
 
+### Installing command-t
+
+```
+cd ~/.dotfiles/vim/command-t/ruby/command-t
+ruby extconf.rb
+make
+```
+
+
+    
+
 
 Environment
 -------
