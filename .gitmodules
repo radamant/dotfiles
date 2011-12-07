@@ -1,0 +1,6 @@
+[submodule "vim/bundle/Command-T"]
+	path = vim/bundle/Command-T
+	url = https://github.com/vim-scripts/Command-T.git
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = https://github.com/vim-scripts/Command-T.git
