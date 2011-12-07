@@ -26,6 +26,6 @@ map <Leader>t :CommandTFlush<CR>:CommandT<CR>
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>e :edit %%
 
-color desert
+color jellybeans
 
 set guifont=Inconsolata-g:h14

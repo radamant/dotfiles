@@ -7,3 +7,9 @@
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/theme-buttercream"]
+	path = vim/bundle/theme-buttercream
+	url = https://github.com/vim-scripts/buttercream.vim
+[submodule "vim/bundle/theme-jellybeans"]
+	path = vim/bundle/theme-jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
