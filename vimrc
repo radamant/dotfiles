@@ -22,6 +22,9 @@ map <C-k> <C-w>k
 
 map <Leader>t :CommandTFlush<CR>:CommandT<CR>
 
+"Show line numbers
+set number
+
 " Map ,e to open files in the same directory as the current file
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>e :edit %%
