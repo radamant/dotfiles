@@ -7,7 +7,10 @@ augroup myfiletypes
   autocmd!
   "for ruby, autoindent with two spaces, always expand tabs
   autocmd FileType ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
-  autocmd FileType python set sw=4 sts=4 et
+  autocmd FileType python,objc set sw=4 sts=4 et
+
+  autocmd FileType objc map <Leader>c :CommandTFlush<CR>:CommandT Classes<CR>
+
 augroup END
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -21,6 +24,8 @@ map <C-l> <C-w>l
 map <C-k> <C-w>k
 
 map <Leader>t :CommandTFlush<CR>:CommandT<CR>
+map <Leader>c :CommandTFlush<CR>:CommandT Classes<CR>
+map <Leader>s :CommandTFlush<CR>:CommandT Specs<CR>
 
 "Show line numbers
 set number
