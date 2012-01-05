@@ -7,3 +7,7 @@ alias restoresimulator="rsync -vaz ~/SimulatorBackup/ ~/Library/Application\ Sup
 
 # changing directory to code project
 function c { cd ~/projects/$1; }
+
+# open xcode
+alias xo='find ./ -name "*.xcodeproj" -exec open {} \;'
+alias xq="osascript -e 'tell application \"XCode\" to quit'"
