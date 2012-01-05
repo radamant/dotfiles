@@ -13,6 +13,11 @@ Installation
 
 ### Installing command-t
 
+Note: make sure you are running the following script with the same ruby version that mvim was compiled to.
+
+Check with: `:ruby puts RUBY_VERSION`
+
+
 ```
 cd ~/.dotfiles/vim/command-t/ruby/command-t
 ruby extconf.rb
