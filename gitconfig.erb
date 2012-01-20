@@ -7,6 +7,7 @@
   aa = add --all
   l = log --graph --abbrev-commit --date=relative 
   bro = !git branch -r | grep origin
+  sl = stash list
 
 [user]
 	name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
