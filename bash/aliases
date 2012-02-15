@@ -1,5 +1,8 @@
 alias ll='ls -l'
 
+alias be='bundle exec'
+
+alias gur='git pu; grox'
 alias gsub="git submodule foreach --recursive git submodule sync && git submodule update --init --recursive"
 
 alias backupsimulator="rsync -vaz ~/Library/Application\ Support/iPhone\ Simulator/5.0/Applications/ ~/SimulatorBackup"
