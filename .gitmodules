@@ -19,3 +19,9 @@
 [submodule "vim/bundle/mustache"]
 	path = vim/bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = https://github.com/vim-scripts/vim-coffee-script.git
+[submodule "vim/bundle/vim-tabular"]
+	path = vim/bundle/vim-tabular
+	url = https://github.com/godlygeek/tabular.git

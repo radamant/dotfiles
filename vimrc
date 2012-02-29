@@ -6,11 +6,13 @@ augroup myfiletypes
   "clear old autocmds in group
   autocmd!
   "for ruby, autoindent with two spaces, always expand tabs
-  autocmd FileType ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
+  autocmd FileType coffee,ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
   autocmd FileType python,objc set sw=4 sts=4 et
 
   autocmd FileType objc map <Leader>c :CommandTFlush<CR>:CommandT Classes<CR>
 
+  "autocmd FileType gitcommit DiffGitCached | wincmd p | vertical new | wincmd r
+  autocmd FileType gitcommit DiffGitCached | wincmd t | wincmd H | wincmd L
 augroup END
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -36,4 +38,4 @@ map <leader>e :edit %%
 
 color jellybeans
 
-set guifont=Inconsolata-g:h14
+"set guifont=Inconsolata-g:h14
