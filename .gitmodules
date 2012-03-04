@@ -25,3 +25,6 @@
 [submodule "vim/bundle/vim-tabular"]
 	path = vim/bundle/vim-tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/bundle/vim-clojure"]
+	path = vim/bundle/vim-clojure
+	url = https://github.com/vim-scripts/VimClojure.git
