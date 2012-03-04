@@ -38,4 +38,4 @@ map <leader>e :edit %%
 
 color jellybeans
 
-"set guifont=Inconsolata-g:h14
+set guifont=Inconsolata-g:h14
