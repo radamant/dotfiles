@@ -28,3 +28,9 @@
 [submodule "vim/bundle/vim-clojure"]
 	path = vim/bundle/vim-clojure
 	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "vim/bundle/vim-ctrlp"]
+	path = vim/bundle/vim-ctrlp
+	url = https://github.com/kien/ctrlp.vim
+[submodule "vim/bundle/vim-theme-ir_black"]
+	path = vim/bundle/vim-theme-ir_black
+	url = https://github.com/wgibbs/vim-irblack.git

@@ -25,9 +25,8 @@ map <C-j> <C-w>j
 map <C-l> <C-w>l
 map <C-k> <C-w>k
 
-map <Leader>t :CommandTFlush<CR>:CommandT<CR>
-map <Leader>c :CommandTFlush<CR>:CommandT Classes<CR>
-map <Leader>s :CommandTFlush<CR>:CommandT Specs<CR>
+map <Leader>t :CtrlP<CR>
+map <Leader><Leader>t :CtrlPClearCache<CR>:CtrlP<CR>
 
 "Show line numbers
 set number
