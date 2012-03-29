@@ -38,3 +38,6 @@ map <leader>e :edit %%
 color jellybeans
 
 set guifont=Inconsolata-g:h14
+
+" CTRLP customization
+let g:ctrlp_working_path_mode = 0
