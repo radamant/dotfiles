@@ -1,6 +1,7 @@
 # ls colors
 export LSCOLORS=fxfxcxdxbxegedabagacad
 export CLICOLOR=1
+export TERM=xterm-256color
 
 [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
