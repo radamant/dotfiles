@@ -37,3 +37,6 @@
 [submodule "vim/bundle/CSApprox"]
 	path = vim/bundle/CSApprox
 	url = https://github.com/vim-scripts/CSApprox.git
+[submodule "vim/bundle/theme-molokai"]
+	path = vim/bundle/theme-molokai
+	url = https://github.com/vim-scripts/molokai.git

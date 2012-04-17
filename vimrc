@@ -18,6 +18,9 @@ augroup END
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
+" highlight current line
+set cursorline
+
 let mapleader=","
 
 map <C-h> <C-w>h
