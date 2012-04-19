@@ -34,9 +34,6 @@
 [submodule "vim/bundle/vim-theme-ir_black"]
 	path = vim/bundle/vim-theme-ir_black
 	url = https://github.com/wgibbs/vim-irblack.git
-[submodule "vim/bundle/CSApprox"]
-	path = vim/bundle/CSApprox
-	url = https://github.com/vim-scripts/CSApprox.git
 [submodule "vim/bundle/theme-molokai"]
 	path = vim/bundle/theme-molokai
 	url = https://github.com/vim-scripts/molokai.git
