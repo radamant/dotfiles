@@ -45,6 +45,8 @@ set guifont=Inconsolata-g:h14
 " CTRLP customization
 let g:ctrlp_working_path_mode = 0
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/*.jpg,*/*.jpeg,*/*.png,*/*.coffee.js
+" Ignore jasmine-headless-webkit cache
+set wildignore+=*/.jhw-cache/*
 
 command! -complete=shellcmd -nargs=+ Shell call s:RunShellCommand(<q-args>)
 function! s:RunShellCommand(cmdline)
