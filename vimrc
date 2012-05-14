@@ -28,6 +28,11 @@ map <C-j> <C-w>j
 map <C-l> <C-w>l
 map <C-k> <C-w>k
 
+map <Up> <C-w>-
+map <Down> <C-w>+
+map <Left> <C-w><
+map <Right> <C-w>>
+
 map <Leader>t :CtrlP<CR>
 map <Leader><Leader>t :CtrlPClearCache<CR>:CtrlP<CR>
 
