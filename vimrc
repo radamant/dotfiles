@@ -83,3 +83,14 @@ function! s:RunShellCommand(cmdline)
   setlocal nomodifiable
   1
 endfunction
+
+function! ToDone()
+  let linenumber = line('.')
+  :.s/-/x/
+  :normal! dd
+  :normal! G
+  :normal! p
+  exec ":" + linenumber
+endfunction
+:command! ToDone :call ToDone()
+map <leader>d :call ToDone()<CR>
