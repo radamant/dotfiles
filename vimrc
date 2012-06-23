@@ -6,7 +6,7 @@ augroup myfiletypes
   "clear old autocmds in group
   autocmd!
   "for ruby, autoindent with two spaces, always expand tabs
-  autocmd FileType coffee,ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
+  autocmd FileType coffee,ruby,haml,lua,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
   autocmd FileType python,objc set sw=4 sts=4 et
 
   autocmd FileType objc map <Leader>c :CommandTFlush<CR>:CommandT Classes<CR>
