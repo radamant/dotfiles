@@ -9,6 +9,7 @@
   l = log --graph --abbrev-commit --date=relative 
   bro = !git branch -r | grep origin
   sl = stash list
+  standup = log --since="25.hours.ago" --author Adam
 
 [user]
 	name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
