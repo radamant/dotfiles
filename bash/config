@@ -5,6 +5,9 @@ export TERM=screen-256color
 
 [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+[[ -s "$HOME/nvm/nvm.sh" ]] && source "$HOME/nvm/nvm.sh"
+# this loads NVM
+
 export PS1='\[\e[35;40m\]\h:\[\e[36;40m\]\W\[\e[32;40m\]$(__git_ps1 "(%s)") \[\e[33;40m\]\$\[\e[0m\] '
 
 function __current_branch {
