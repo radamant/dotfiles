@@ -737,3 +737,66 @@ ext.add('toggle-element', function(){
 key.setGlobalKey('C-o', function(){
   ext.exec('toggle-element');
 })
+
+
+/* site local keymap */
+var local = {};
+plugins.options["site_local_keymap.local_keymap"] = local;
+
+function fake(k, i) function () { key.feed(k, i); };
+function pass(k, i) [k, fake(k, i)];
+function ignore(k, i) [k, null];
+
+local["^https?://mail.google.com/mail/"] = [
+    pass(['g', 'i']),
+    pass(['g', 's']),
+    pass(['g', 't']),
+    pass(['g', 'd']),
+    pass(['g', 'a']),
+    pass(['g', 'c']),
+    pass(['g', 'k']),
+    // thread list
+    pass(['*', 'a']),
+    pass(['*', 'n']),
+    pass(['*', 'r']),
+    pass(['*', 'u']),
+    pass(['*', 's']),
+    pass(['*', 't']),
+    // navigation
+    ['u', null],
+    ['k', null],
+    ['j', null],
+    ['o', null],
+    ['p', null],
+    ['n', null],
+    // application
+    ['c', null],
+    ['/', null],
+    ['q', null],
+    ['?', null],
+    // manipulation
+    ['x', null],
+    ['s', null],
+    ['y', null],
+    ['e', null],
+    ['m', null],
+    ['!', null],
+    ['#', null],
+    ['r', null],
+    ['R', null],
+    ['a', null],
+    ['A', null],
+    ['f', null],
+    ['F', null],
+    ['N', null],
+    pass(['<tab>', 'RET']),
+    ['ESC', null],
+    [']', null],
+    ['[', null],
+    ['z', null],
+    ['.', null],
+    ['I', null],
+    ['U', null],
+    ['C-s', null],
+    ['T', null]
+];
